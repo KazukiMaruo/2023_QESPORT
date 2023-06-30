@@ -6,7 +6,7 @@ close all
 Fixationtime = readtable("Event Statistics - fixation.xlsx");
 % extract the relevant columns
 fix = [Fixationtime.Participant, Fixationtime.EventStartTrialTime_ms_, Fixationtime.EventEndTrialTime_ms_, Fixationtime.EventDuration_ms_];
-participant_namelist = ["kotrla" "Lorencova" "Murlova" "Palaskova" "Polesovska" "sohorova" "tylova" "ulicka" "vaclavikova" "Valikova" "varekova" "zemanova" "kopecka" "konecna" "kominova" "Klimesova" "klaskova" "kalinkova" "jezkova" "geistova" "drasalova" "dobronova" "byrtusova" "borgulova"];
+participant_namelist = ["privacy_01" "privacy_02" "privacy_03" "privacy_04" "privacy_05" "privacy_06" "privacy_07" "privacy_08" "privacy_09" "privacy_10" "privacy_11" "privacy_12" "privacy_13" "privacy_14" "privacy_15" "privacy_16" "privacy_17" "privacy_18" "privacy_19" "gprivacy_20" "privacy_21" "privacy_22" "privacy_23" "privacy_24"];
 file = dir('/Users/muku/Documents/MATLAB folder/Ludvik/excel/video*.xlsx');
 path2data = '/Users/muku/Documents/MATLAB folder/Ludvik/excel';
 
